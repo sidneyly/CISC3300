@@ -1,0 +1,8 @@
+HTML stands for Hypertext Markup Language and is used to create the contents and elements of a web page.
+CSS stands for Cascading Style Sheets and is used for structure, design, and style of an HTML web page.
+On the Fordham University webpage it makes the heading large and at the top of the page to indicate that it has the most important information. It also includes buttons such "About", "Mission", "Academics" at the top to signify it is the most important and most sought after information. It then uses dividers and sections to group related information together so that the reader knows which elements/text/images relate to each other. The diffeerence in font size also indicates what text are the titles and which is the supplement information. 
+An html element is made up of 2 tags with content inside. An element defines the content of html code. A tag is any characters surrounded by 2 angle brackets. An attribute provides additional information about the element; it includes a name and value.
+A CSS rule makes style rules for html elements. The rules govern how the content of the element is going to be displayed in a web browseer. It has 2 parts: a selector and a declaration. 
+CSS cascading rules indicate which style will be applied when there are conflicting styles. The cascading is in this order: Origin and Importance, Context, Style Attribute, Selector specificity, Order of Appearance. more specific selectors will take precedance over less specific specific selectors. 
+<img src="pinecone.jpg"> 
+The default behavior when submitting a HTML form is the same as a button. It must be in a form in order for the form to submit to a database. 
