@@ -1,0 +1,81 @@
+li{
+    color: navy;
+    padding: 4px;
+}
+
+#updates{
+    color: black;
+}
+
+body{
+    text-align: center;
+}
+
+ul{
+    font-size: xx-small;
+    padding-left: 20px;
+}
+
+header{
+    height: 200px;
+}
+h1{
+    color: navy;
+    font-size: x-large;
+}
+
+h2{
+    color: navy;
+    font-size: medium;
+}
+
+h3{
+    color: navy;
+    font-size: small;
+}
+
+h4{
+    color: navy;
+    font-size: small;
+}
+
+h5{
+    font-size: x-small;
+}
+
+a{
+    color: purple;
+}
+
+tbody{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table{
+    width: 80%;
+    height: 400px;
+    margin: auto;
+}
+
+
+
+
+#comments{
+    text-align: left;
+}
+
+footer{
+    text-align: left;
+}
+
+.table list{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img{
+    width: 100px;
+    height: 30px;
+}
