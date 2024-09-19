@@ -18,8 +18,12 @@ ul{
 
 header{
     height: 200px;
+    font: Garamond;
+    
 }
-h1{
+
+
+span{
     color: navy;
     font-size: x-large;
 }
@@ -76,6 +80,6 @@ footer{
 }
 
 img{
-    width: 100px;
-    height: 30px;
+    width: 80px;
+    height: 40px;
 }
