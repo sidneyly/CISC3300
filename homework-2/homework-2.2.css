@@ -1,0 +1,23 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(130, 179, 130);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+@media (max-width: 499px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+
+
+        

@@ -1,0 +1,30 @@
+#logo {
+    font-family: 'Jacquarda Bastarda 9', serif; /* Added fallback font */
+    font-size: 60px;
+    color: darkred;
+    margin: 20px;
+    text-align: center;
+}
+
+body{
+    background-color: black;
+    padding: 40px;
+}
+
+.container{
+    background-color: antiquewhite;
+    padding: 20px;
+    border: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    align-self: auto;
+    align-items: center;
+}
+
+img{
+    display: block;
+    width: 80%;
+    height: 80%;
+    margin: 20px auto;
+}

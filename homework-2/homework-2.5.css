@@ -1,0 +1,110 @@
+body {
+    font-family: Raleway;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    margin: auto;
+    width: 80%;
+}
+
+.sidebar {
+    width: 20%;
+    display: block;
+    background-color: white;
+}
+
+.sidebar h2 {
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #900028;
+    display: inline-block;
+}
+
+.item-1{
+    margin: 10px;
+    display: inline-block;
+    background-color: whitesmoke;
+    border: 10px;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.item-1 a{
+    font-size: 14px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.item-1 a:hover {
+    text-decoration: underline;
+}
+
+.sidebar .button {
+    display: inline-block;
+    background-color: #900028;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    margin: 10px;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+}
+
+.nav a {
+    text-decoration: none;
+}
+
+.content {
+    padding: 40px;
+    flex: 1;
+    background-color: white;
+}
+
+.content h1 {
+    color: #900028;
+    font-size: 45px;
+}
+
+.content h3 {
+    color: black;
+    font-size: 18px;
+}
+
+.content a {
+    color: #900028;
+    text-decoration: underline;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.text-body p {
+    line-height: 1.5;
+    font-size: 16px;
+    color: black;
+}
+
+.image-container {
+    margin: auto;
+    float: right;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: auto;
+}
