@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> homework 4 </title>
+  
+    <style>
+        h1{
+            font-family: 'Lucida Sans';
+            font-size: large;
+            padding: 5px;
+        }
+        #change-color li {
+            cursor: pointer;
+            padding: 5px;
+            font-family: 'Lucida Sans';
+            font-size: medium;
+        }
+        #cat-list li{
+            padding: 5px;
+            font-family: 'Lucida Sans';
+            font-size: medium;
+        }
+        form{
+            padding: 5px;
+            font-family: 'Lucida Sans';
+            font-size: medium;
+        }
+        #form-message{
+            font-family: 'Lucida Sans';
+            font-size: small;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- change all list items to blue -->
+    <h1> Click Any to Change Color </h1>
+    <ul id="change-color">
+        <li>Cat</li>
+        <li>Dog</li>
+        <li>Bunny</li>
+        <li>Sheep</li>
+    </ul>
+
+    <!-- Cats Cats Cats -->
+    <h1> Cat List </h1>
+    <ul id="cat-list"> </ul>
+
+    <!-- Form Submission -->
+    <h1> Form Submission </h1>
+    <form id="submission-form">
+        <label for="user-input"> Enter some text: </label>
+        <input type="text" id="user-input" name="user-input">
+        <button type="submit"> Submit </button>
+    </form>
+
+    <div id="form-message"> </div>
+
+    <!-- Javascript link -->
+    <script src="homework-4.js"></script>
+</body>
+</html>
