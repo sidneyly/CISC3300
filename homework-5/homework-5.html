@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+       
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"> </script>
+        <link rel="stylesheet" href="homework-5.css"> 
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+English">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend">
+
+        <title> Homework 5 </title>
+    </head>
+
+    <body>
+        <!--Current Weather in NYC-->
+        <div class="container-1">
+            <h1> Nyc Weather </h1>
+        
+            <div class="weather">
+                <h3> Current Temperature in NYC: </h3>
+                <p id="temperature"> temperature: </p>
+            </div>
+        </div>
+
+        <!--Recipe List-->
+        <div class="container-2">
+            <h1> Recipe List </h1>
+            <div class="recipe-list" id="recipe-list">  </div>
+
+            <br />
+    
+            <!--new recipe form-->
+            <div class="newRecipes">
+            <h2> Add New Recipe </h2>
+            <form id="recipe-form">
+                <label for="title"> Recipe Title </label>
+                <input type="text" id="title" required>
+
+                <label for="description"> Recipe Description </label>
+                <textarea id="description" rows="5" required></textarea>
+                <button type="submit"> Add Recipe </button>
+            </form>
+            </div>
+        </div>
+
+        <script src="homework-5.js"></script>
+        
+    </body>
+</html>

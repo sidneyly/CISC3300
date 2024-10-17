@@ -1,0 +1,113 @@
+/* universal style */
+body {
+    background-color: #344e41;
+}
+
+h1{
+    font-family: 'IM Fell English';
+    font-size: 40px;
+    color: rgb(94, 0, 0);
+}
+
+
+/* weather style */
+.container-1{
+    background-color: #768546;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    gap: 30px;
+
+
+}
+.weather h3, #temperature{
+    font-family: 'Lexend';
+    font-weight: 500;
+    color: #cfbe8a;
+
+}
+
+
+/* recipe style */
+.container-2 {
+    background-color: #cfbe8a;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    gap: 55px;
+    justify-content: space-between;
+}
+
+.recipe-list, .newRecipes{
+    flex: 1;
+}
+
+.newRecipes form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recipe-list h3{
+    font-family: 'Lexend';
+    color: #bc6c25;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.recipe-list p{
+    font-family: 'Lexend';
+    font-weight: 200;
+    font-size: small;
+    color: #432818;
+}
+
+h2 {
+    font-family: 'IM Fell English';
+    color: #768546;
+}
+
+#title {
+    color: #432818;
+    font-family: 'Lexend';
+    font-size: small;
+    font-weight: 200;
+    background-color: #cfbe8a;
+}
+
+#description {
+    color: #432818;
+    font-family: 'Lexend';
+    font-size: small;
+    font-weight: 200;
+    background-color: #cfbe8a;
+}
+
+label[for="title"] {
+    font-family: 'Lexend';
+    color: #bc6c25;
+    font-size: medium;
+    font-weight: 500;
+ }
+
+ label[for="description"] {
+    font-family: 'Lexend';
+    color: #bc6c25;
+    font-size: medium;
+    font-weight: 500;
+ }
+
+ button {
+    font-family: 'Lexend';
+    color: #bc6c25;
+    font-size: medium;
+    font-weight: 500;
+    background-color: #cfbe8a;
+    border-color: #768546;
+    cursor: pointer;
+ }
+
+ input, textarea {
+    border-color: #768546;
+    border-width: 2px;
+ }

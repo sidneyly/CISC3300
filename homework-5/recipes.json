@@ -1,0 +1,29 @@
+{
+  "recipes": [
+    {
+      "id": "1",
+      "title": "Pumpkin Bread",
+      "description": "A bread loaf made with pumpkin, cinnamon, nutmeg, and cloves."
+    },
+    {
+      "id": "2",
+      "title": "Chicken Noodle Soup",
+      "description": "A classic soup with onion, carrots, celery, garlic, pasta, and chicken."
+    },
+    {
+      "id": "3",
+      "title": "Apple Cobbler",
+      "description": "An old fashioned cobbler with apples, cinnamon, and cake like batter. Traditionally topped with vanilla ice cream."
+    },
+    {
+      "id": "4",
+      "title": "Butternut Squash Soup",
+      "description": "A creamy soup with butternut squash, sage, and various vegetables."
+    },
+    {
+      "id": "5",
+      "title": "Roasted Potatoes",
+      "description": "A universal side dish of diced potatoes and various herbs."
+    }
+  ]
+}
